@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_cc92cD7CEemmxpuUkNiqzg">
+    <contextParameter comment="" name="EDW_ODS_account" prompt="EDW_ODS_account?" promptNeeded="false" type="id_String" value="PPD.us-east-1" xmi:id="_cc92cT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_loginTimeout" prompt="EDW_ODS_loginTimeout?" promptNeeded="false" type="id_Integer" value="60" xmi:id="_cc92cj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_userId" prompt="EDW_ODS_userId?" promptNeeded="false" type="id_String" value="ksingh" xmi:id="_cc92cz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_schemaName" prompt="EDW_ODS_schemaName?" promptNeeded="false" type="id_String" value="IPAAS_POC_OWNER" xmi:id="_cc92dD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_password" prompt="EDW_ODS_password?" promptNeeded="false" type="id_Password" value="PrT+NDdqPMAnRRPexLT2zA==" xmi:id="_cc92dT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_role" prompt="EDW_ODS_role?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92dj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_warehouse" prompt="EDW_ODS_warehouse?" promptNeeded="false" type="id_String" value="INTEGRATION_NONPROD_WH" xmi:id="_cc92dz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_db" prompt="EDW_ODS_db?" promptNeeded="false" type="id_String" value="EDWSB" xmi:id="_cc92eD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_shortAcnt" prompt="EDW_ODS_shortAcnt?" promptNeeded="false" type="id_String" value="PPD" xmi:id="_cc92eT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_className" prompt="EDW_ODS_className?" promptNeeded="false" type="id_String" value="net.snowflake.client.jdbc.SnowflakeDriver" xmi:id="_cc92ej7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_port" prompt="EDW_ODS_port?" promptNeeded="false" type="id_String" value="443" xmi:id="_cc92ez7CEemmxpuUkNiqzg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Local" xmi:id="_cc92fD7CEemmxpuUkNiqzg">
+    <contextParameter comment="" name="EDW_ODS_account" prompt="EDW_ODS_account?" promptNeeded="false" type="id_String" value="PPD.us-east-1" xmi:id="_cc92fT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_loginTimeout" prompt="EDW_ODS_loginTimeout?" promptNeeded="false" type="id_Integer" value="60" xmi:id="_cc92fj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_userId" prompt="EDW_ODS_userId?" promptNeeded="false" type="id_String" value="EDWD_ETL_USER" xmi:id="_cc92fz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_schemaName" prompt="EDW_ODS_schemaName?" promptNeeded="false" type="id_String" value="ODS_CTMS_OWNER" xmi:id="_cc92gD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_password" prompt="EDW_ODS_password?" promptNeeded="false" type="id_Password" value="Q66AlXMSTT9O/hIgva3v7g==" xmi:id="_cc92gT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_role" prompt="EDW_ODS_role?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92gj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_warehouse" prompt="EDW_ODS_warehouse?" promptNeeded="false" type="id_String" value="INTEGRATION_NONPROD_WH" xmi:id="_cc92gz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_db" prompt="EDW_ODS_db?" promptNeeded="false" type="id_String" value="EDWD" xmi:id="_cc92hD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_shortAcnt" prompt="EDW_ODS_shortAcnt?" promptNeeded="false" type="id_String" value="PPD" xmi:id="_cc92hT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_className" prompt="EDW_ODS_className?" promptNeeded="false" type="id_String" value="net.snowflake.client.jdbc.SnowflakeDriver" xmi:id="_cc92hj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_port" prompt="EDW_ODS_port?" promptNeeded="false" type="id_String" value="443" xmi:id="_cc92hz7CEemmxpuUkNiqzg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_cc92iD7CEemmxpuUkNiqzg">
+    <contextParameter comment="" name="EDW_ODS_account" prompt="EDW_ODS_account?" promptNeeded="false" type="id_String" value="PPD.us-east-1" xmi:id="_cc92iT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_loginTimeout" prompt="EDW_ODS_loginTimeout?" promptNeeded="false" type="id_Integer" value="60" xmi:id="_cc92ij7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_userId" prompt="EDW_ODS_userId?" promptNeeded="false" type="id_String" value="EDWD_ETL_USER" xmi:id="_cc92iz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_schemaName" prompt="EDW_ODS_schemaName?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92jD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_password" prompt="EDW_ODS_password?" promptNeeded="false" type="id_Password" value="Q66AlXMSTT9O/hIgva3v7g==" xmi:id="_cc92jT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_role" prompt="EDW_ODS_role?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92jj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_warehouse" prompt="EDW_ODS_warehouse?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92jz7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_db" prompt="EDW_ODS_db?" promptNeeded="false" type="id_String" value="EDWD" xmi:id="_cc92kD7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_shortAcnt" prompt="EDW_ODS_shortAcnt?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92kT7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_className" prompt="EDW_ODS_className?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92kj7CEemmxpuUkNiqzg"/>
+    <contextParameter comment="" name="EDW_ODS_port" prompt="EDW_ODS_port?" promptNeeded="false" type="id_String" value="" xmi:id="_cc92kz7CEemmxpuUkNiqzg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_47417986-c00a-4a7a-acd3-29f54202135e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L6bihgM3aPHo6Cb4ygdBdryl7EM11WMiHWKxiDXV3sg+8tqdLBcA4je1IXRLIkP6Y301+MdQWQ17
+42oiYUfP2A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8c51645e-480c-405f-8090-d6196fb4a2f0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iPW83iDR3K53sTDorb6+7icsxTBBE1XfL6tlZi3nR8ygIc4O+wKddxNCqTYXFzkhApajcxD5QkQn
+qkODZ6voYw==</DigestValue></Reference></SignedInfo><SignatureValue>kS7rRAnnKz+mp8Ctxxci+iSilHwelZPEsdh93hFeRojPXWU2wMZrLipOMegHczi3RWi6p9HNjUO5
+UdSPL8uVQClIyZprhfIgJKMbgFR3bxWiJYDIYnafP9aAfHSWCg7VzmfoRji4v2PQ1Hs/EjkQibxk
+6MrGqRrEFK+MixvBYUIFF3NsgV4ZOEckcktYu4YoVMTIWD6cAfoUAfduPAQfN7zB7ii5GDO12JUL
+FKtU/RM7rPv5ce+iYC92+BKaE6M1/nu6oxg+g/4E6Y2UDOCuC8lfObNGb+Q9SI9meVFW9CmwQzs5
+qS+pEWNCeRdA2bxSpKMoEb97qabb39HC11kG4g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8c51645e-480c-405f-8090-d6196fb4a2f0" Target="#_47417986-c00a-4a7a-acd3-29f54202135e"><Timestamp>2019-03-04 21:14:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -11,6 +11,22 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/job_00_SELF_PROJECTS/dynamicoutput_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_07_api_child_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_08_database_main_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_04_file_child_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_01_config_meta_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_database_child_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/master_job_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_05_file_rejects_archive_cleanup_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_02_file_ftp_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_file_child_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_03_file_main_0.1</module>
+    <module>jobs/joblets/joblet_02_PPDI/jlet_capture_cloudlog_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_database_main_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_file_main_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_09_database_child_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/job_06_api_main_0.1</module>
+    <module>jobs/process/job_02_PPDI/STUDY_LOAD/test_child_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TEST</talend.project.name>

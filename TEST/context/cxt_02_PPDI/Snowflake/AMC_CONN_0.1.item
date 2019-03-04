@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_cckN0D7CEemmxpuUkNiqzg" xmi:version="2.0">
+  <contextParameter comment="" name="connection_AMCSNWFLK_account" prompt="connection_AMCSNWFLK_account?" promptNeeded="false" type="id_String" value="&quot;ppd.us-east-1&quot;" xmi:id="_cckN0T7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_warehouse" prompt="connection_AMCSNWFLK_warehouse?" promptNeeded="false" type="id_String" value="&quot;INTEGRATION_NONPROD_WH&quot;" xmi:id="_cckN0j7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_db" prompt="connection_AMCSNWFLK_db?" promptNeeded="false" type="id_String" value="&quot;EDWD&quot;" xmi:id="_cckN0z7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_schemaName" prompt="connection_AMCSNWFLK_schemaName?" promptNeeded="false" type="id_String" value="&quot;INT_MON_OWNER&quot;" xmi:id="_cckN1D7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_userId" prompt="connection_AMCSNWFLK_userId?" promptNeeded="false" type="id_String" value="&quot;ksingh&quot;" xmi:id="_cckN1T7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_password" prompt="connection_AMCSNWFLK_password?" promptNeeded="false" type="id_String" value="&quot;Talend1234&quot;" xmi:id="_cckN1j7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_className" prompt="connection_AMCSNWFLK_className?" promptNeeded="false" type="id_String" value="&quot;net.snowflake.client.jdbc.SnowflakeDriver&quot;" xmi:id="_cckN1z7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_statsTable" prompt="connection_AMCSNWFLK_statsTable?" promptNeeded="false" type="id_String" value="&quot;STAT_CATCHER&quot;" xmi:id="_cckN2D7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_logTable" prompt="connection_AMCSNWFLK_logTable?" promptNeeded="false" type="id_String" value="&quot;LOG_CATCHER&quot;" xmi:id="_cckN2T7CEemmxpuUkNiqzg"/>
+  <contextParameter comment="" name="connection_AMCSNWFLK_meterTable" prompt="connection_AMCSNWFLK_meterTable?" promptNeeded="false" type="id_String" value="&quot;FLOW_CATCHER&quot;" xmi:id="_cckN2j7CEemmxpuUkNiqzg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3ced1400-3ce9-46a9-9032-414c068a6834"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9aDwzVzRN2Uz3t6hylYjioVoSpWf13G6zFoWvjpdXBVcnQJqU38fPKGx3pEQLrq70Grtc6JYXNzV
+oMLolJe9gA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_462d5f85-bac7-4fb3-a276-2d7197534031"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vb0QUQ0OMCso3AVPkN/UvuN3WUNwExBCLmYbQHsvMWBipGM1oTTrjveO25LoqywRSYi1AIMZfZSm
+abAnQHWXhQ==</DigestValue></Reference></SignedInfo><SignatureValue>DRP/A7AT7QFRKCgSScKxsdQTzQKiErOIXikUItu1tsS3/m4Bv0BNyZzKYldoqy9kPIikTa757EB1
+cmB+mNSiQFwrdBy5lh+0e++3qbFI7lhsSsFDBtHFJF6FnGJSQ7ybXVeAr9s0E7VWrJsAJ7Vc+/QL
+4zpVjlHByllIQXm1LXzLsXOnvbJgiC+kWnmZ9ryeM/izQyWa91mX1RHlQ8gWmJJzsZLsq+z/y5U9
+HT9abAWfRTkZQLQYfTGd43/oZ1sYm8TdHTe7b0BQYKitomKHO/WTJxzY4AH6zVXXrg+p98Ar0B4A
+geAd/7yKOjLvg8MKndPQbECQLJA3UOMMr0ASpQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_462d5f85-bac7-4fb3-a276-2d7197534031" Target="#_3ced1400-3ce9-46a9-9032-414c068a6834"><Timestamp>2019-03-04 21:14:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
